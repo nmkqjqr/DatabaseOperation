@@ -30,3 +30,17 @@
 *.exe
 *.out
 *.app
+.vs/DatabaseOperation/v16/ipch/AutoPCH/4a120bd59055ca00/ALLDEMO.ipch
+.vs/DatabaseOperation/v16/.suo
+.vs/DatabaseOperation/v16/Browse.VC.db
+.vs/DatabaseOperation/v16/Browse.VC.opendb
+.vs/DatabaseOperation/v16/Solution.VC.db
+.vs/DatabaseOperation/v16/Solution.VC.db-shm
+.vs/DatabaseOperation/v16/Solution.VC.db-wal
+Debug/Win32/AllDemo/AllDemo.Build.CppClean.log
+Debug/Win32/AllDemo/AllDemo.log
+Debug/Win32/AllDemo/AllDemo.vcxproj.FileListAbsolute.txt
+Debug/Win32/soci_oracle_test/soci_oracle_test.Build.CppClean.log
+Debug/Win32/soci_oracle_test/soci_oracle_test.log
+Debug/Win32/soci_oracle_test/soci_oracle_test.vcxproj.FileListAbsolute.txt
+include/private/README.md
