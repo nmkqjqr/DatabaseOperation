@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\backends\odbc\blob.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\backends\odbc\factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\backends\odbc\row-id.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\backends\odbc\session.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\backends\odbc\standard-into-type.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\backends\odbc\standard-use-type.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\backends\odbc\statement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\backends\odbc\vector-into-type.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\backends\odbc\vector-use-type.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\odbc\soci-odbc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\backends\odbc\CMakeLists.txt">
+      <Filter>CMake Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Files">
+      <UniqueIdentifier>{91CA709E-2622-3D25-A48E-91291E494FD6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{52D341B1-4835-3AED-AC04-83523C059ED0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F0293B13-3CC4-36CA-B18D-DDDF8BBEB224}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

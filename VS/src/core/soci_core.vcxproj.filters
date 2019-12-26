@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\backend-loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\blob.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\connection-parameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\connection-pool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\into-type.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\once-temp-type.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\prepare-temp-type.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\procedure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\ref-counted-prepare-info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\ref-counted-statement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\row.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\rowid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\session.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\soci-simple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\statement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\transaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\use-type.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\values.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\backend-loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\bind-values.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\blob-exchange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\blob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\boost-fusion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\boost-gregorian-date.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\boost-optional.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\boost-tuple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\callbacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\column-info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\connection-parameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\connection-pool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\exchange-traits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\into-type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\into.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\noreturn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\once-temp-type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\prepare-temp-type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\procedure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\query_transformation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\ref-counted-prepare-info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\ref-counted-statement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\row-exchange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\row.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\rowid-exchange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\rowid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\rowset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\session.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\soci-backend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\soci-platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\soci-simple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\soci.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\statement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\transaction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\type-conversion-traits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\type-conversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\type-holder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\type-ptr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\type-wrappers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\unsigned-types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\use-type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\use.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\values-exchange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\values.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\soci\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\CMakeLists.txt">
+      <Filter>CMake Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Files">
+      <UniqueIdentifier>{91CA709E-2622-3D25-A48E-91291E494FD6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{52D341B1-4835-3AED-AC04-83523C059ED0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F0293B13-3CC4-36CA-B18D-DDDF8BBEB224}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

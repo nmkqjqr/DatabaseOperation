@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{217F109F-1C8E-3E12-8922-E4F1B2E57456}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>soci_sqlite3_test_static</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">soci_sqlite3_test_static.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">soci_sqlite3_test_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">soci_sqlite3_test_static.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">soci_sqlite3_test_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">soci_sqlite3_test_static.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">soci_sqlite3_test_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">soci_sqlite3_test_static.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">soci_sqlite3_test_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS;D:\Cpp\SOCI\SOCI\SOCI4.0.0\include;D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS\include;D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\private;D:\Cpp\SOCI\SOCI\SOCI4.0.0\tests;D:\Cpp\SQLite;D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNING;_SCL_SECURE_NO_WARNINGS;SOCI_ABI_VERSION="4_0";CATCH_CONFIG_NO_CPP11;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNING;_SCL_SECURE_NO_WARNINGS;SOCI_ABI_VERSION=\"4_0\";CATCH_CONFIG_NO_CPP11;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS;D:\Cpp\SOCI\SOCI\SOCI4.0.0\include;D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS\include;D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\private;D:\Cpp\SOCI\SOCI\SOCI4.0.0\tests;D:\Cpp\SQLite;D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS;D:\Cpp\SOCI\SOCI\SOCI4.0.0\include;D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS\include;D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\private;D:\Cpp\SOCI\SOCI\SOCI4.0.0\tests;D:\Cpp\SQLite;D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\Cpp\SQLite\VS\lib\SQLite.lib;..\..\lib\Debug\libsoci_sqlite3_4_0.lib;..\..\lib\Debug\libsoci_core_4_0.lib;D:\Cpp\SQLite\VS\lib\SQLite.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Cpp/SOCI/SOCI/SOCI4.0.0/VS/lib/Debug/soci_sqlite3_test_static.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Cpp/SOCI/SOCI/SOCI4.0.0/VS/bin/Debug/soci_sqlite3_test_static.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS;D:\Cpp\SOCI\SOCI\SOCI4.0.0\include;D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS\include;D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\private;D:\Cpp\SOCI\SOCI\SOCI4.0.0\tests;D:\Cpp\SQLite;D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNING;_SCL_SECURE_NO_WARNINGS;SOCI_ABI_VERSION="4_0";CATCH_CONFIG_NO_CPP11;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNING;_SCL_SECURE_NO_WARNINGS;SOCI_ABI_VERSION=\"4_0\";CATCH_CONFIG_NO_CPP11;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS;D:\Cpp\SOCI\SOCI\SOCI4.0.0\include;D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS\include;D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\private;D:\Cpp\SOCI\SOCI\SOCI4.0.0\tests;D:\Cpp\SQLite;D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS;D:\Cpp\SOCI\SOCI\SOCI4.0.0\include;D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS\include;D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\private;D:\Cpp\SOCI\SOCI\SOCI4.0.0\tests;D:\Cpp\SQLite;D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\Cpp\SQLite\VS\lib\SQLite.lib;..\..\lib\Release\libsoci_sqlite3_4_0.lib;..\..\lib\Release\libsoci_core_4_0.lib;D:\Cpp\SQLite\VS\lib\SQLite.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Cpp/SOCI/SOCI/SOCI4.0.0/VS/lib/Release/soci_sqlite3_test_static.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Cpp/SOCI/SOCI/SOCI4.0.0/VS/bin/Release/soci_sqlite3_test_static.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS;D:\Cpp\SOCI\SOCI\SOCI4.0.0\include;D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS\include;D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\private;D:\Cpp\SOCI\SOCI\SOCI4.0.0\tests;D:\Cpp\SQLite;D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNING;_SCL_SECURE_NO_WARNINGS;SOCI_ABI_VERSION="4_0";CATCH_CONFIG_NO_CPP11;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNING;_SCL_SECURE_NO_WARNINGS;SOCI_ABI_VERSION=\"4_0\";CATCH_CONFIG_NO_CPP11;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS;D:\Cpp\SOCI\SOCI\SOCI4.0.0\include;D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS\include;D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\private;D:\Cpp\SOCI\SOCI\SOCI4.0.0\tests;D:\Cpp\SQLite;D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS;D:\Cpp\SOCI\SOCI\SOCI4.0.0\include;D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS\include;D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\private;D:\Cpp\SOCI\SOCI\SOCI4.0.0\tests;D:\Cpp\SQLite;D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\Cpp\SQLite\VS\lib\SQLite.lib;..\..\lib\MinSizeRel\libsoci_sqlite3_4_0.lib;..\..\lib\MinSizeRel\libsoci_core_4_0.lib;D:\Cpp\SQLite\VS\lib\SQLite.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Cpp/SOCI/SOCI/SOCI4.0.0/VS/lib/MinSizeRel/soci_sqlite3_test_static.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Cpp/SOCI/SOCI/SOCI4.0.0/VS/bin/MinSizeRel/soci_sqlite3_test_static.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS;D:\Cpp\SOCI\SOCI\SOCI4.0.0\include;D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS\include;D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\private;D:\Cpp\SOCI\SOCI\SOCI4.0.0\tests;D:\Cpp\SQLite;D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNING;_SCL_SECURE_NO_WARNINGS;SOCI_ABI_VERSION="4_0";CATCH_CONFIG_NO_CPP11;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNING;_SCL_SECURE_NO_WARNINGS;SOCI_ABI_VERSION=\"4_0\";CATCH_CONFIG_NO_CPP11;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS;D:\Cpp\SOCI\SOCI\SOCI4.0.0\include;D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS\include;D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\private;D:\Cpp\SOCI\SOCI\SOCI4.0.0\tests;D:\Cpp\SQLite;D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS;D:\Cpp\SOCI\SOCI\SOCI4.0.0\include;D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS\include;D:\Cpp\SOCI\SOCI\SOCI4.0.0\include\private;D:\Cpp\SOCI\SOCI\SOCI4.0.0\tests;D:\Cpp\SQLite;D:\Cpp\SOCI\SOCI\SOCI4.0.0\src\core\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\Cpp\SQLite\VS\lib\SQLite.lib;..\..\lib\RelWithDebInfo\libsoci_sqlite3_4_0.lib;..\..\lib\RelWithDebInfo\libsoci_core_4_0.lib;D:\Cpp\SQLite\VS\lib\SQLite.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Cpp/SOCI/SOCI/SOCI4.0.0/VS/lib/RelWithDebInfo/soci_sqlite3_test_static.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Cpp/SOCI/SOCI/SOCI4.0.0/VS/bin/RelWithDebInfo/soci_sqlite3_test_static.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\tests\sqlite3\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Cpp/SOCI/SOCI/SOCI4.0.0/tests/sqlite3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Cpp/SOCI/SOCI/SOCI4.0.0 -BD:/Cpp/SOCI/SOCI/SOCI4.0.0/VS --check-stamp-file D:/Cpp/SOCI/SOCI/SOCI4.0.0/VS/tests/sqlite3/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS\tests\sqlite3\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Cpp/SOCI/SOCI/SOCI4.0.0/tests/sqlite3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Cpp/SOCI/SOCI/SOCI4.0.0 -BD:/Cpp/SOCI/SOCI/SOCI4.0.0/VS --check-stamp-file D:/Cpp/SOCI/SOCI/SOCI4.0.0/VS/tests/sqlite3/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS\tests\sqlite3\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Cpp/SOCI/SOCI/SOCI4.0.0/tests/sqlite3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Cpp/SOCI/SOCI/SOCI4.0.0 -BD:/Cpp/SOCI/SOCI/SOCI4.0.0/VS --check-stamp-file D:/Cpp/SOCI/SOCI/SOCI4.0.0/VS/tests/sqlite3/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS\tests\sqlite3\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Cpp/SOCI/SOCI/SOCI4.0.0/tests/sqlite3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Cpp/SOCI/SOCI/SOCI4.0.0 -BD:/Cpp/SOCI/SOCI/SOCI4.0.0/VS --check-stamp-file D:/Cpp/SOCI/SOCI/SOCI4.0.0/VS/tests/sqlite3/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS\tests\sqlite3\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\tests\sqlite3\test-sqlite3.cpp" />
+    <ClInclude Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\tests\common-tests.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS\ZERO_CHECK.vcxproj">
+      <Project>{CD9EEB85-69E0-3932-BBCA-246A72EE2434}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS\src\core\soci_core_static.vcxproj">
+      <Project>{16C792C6-9988-323A-9892-223723DCF0C9}</Project>
+      <Name>soci_core_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Cpp\SOCI\SOCI\SOCI4.0.0\VS\src\backends\sqlite3\soci_sqlite3_static.vcxproj">
+      <Project>{36F8F017-6058-3D36-8C83-3F40B87DBE87}</Project>
+      <Name>soci_sqlite3_static</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

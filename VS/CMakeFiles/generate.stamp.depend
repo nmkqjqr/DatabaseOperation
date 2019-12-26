@@ -1,0 +1,47 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/CheckCXXSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/FindBoost.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/Platform/WindowsPaths.cmake
+D:/Cpp/SOCI/SOCI/SOCI4.0.0/CMakeLists.txt
+D:/Cpp/SOCI/SOCI/SOCI4.0.0/VS/CMakeFiles/3.16.0-rc4/CMakeCCompiler.cmake
+D:/Cpp/SOCI/SOCI/SOCI4.0.0/VS/CMakeFiles/3.16.0-rc4/CMakeCXXCompiler.cmake
+D:/Cpp/SOCI/SOCI/SOCI4.0.0/VS/CMakeFiles/3.16.0-rc4/CMakeRCCompiler.cmake
+D:/Cpp/SOCI/SOCI/SOCI4.0.0/VS/CMakeFiles/3.16.0-rc4/CMakeSystem.cmake
+D:/Cpp/SOCI/SOCI/SOCI4.0.0/cmake/SociBackend.cmake
+D:/Cpp/SOCI/SOCI/SOCI4.0.0/cmake/SociConfig.cmake
+D:/Cpp/SOCI/SOCI/SOCI4.0.0/cmake/SociDependencies.cmake
+D:/Cpp/SOCI/SOCI/SOCI4.0.0/cmake/SociUtilities.cmake
+D:/Cpp/SOCI/SOCI/SOCI4.0.0/cmake/SociVersion.cmake
+D:/Cpp/SOCI/SOCI/SOCI4.0.0/cmake/configs/test-access.cmake
+D:/Cpp/SOCI/SOCI/SOCI4.0.0/cmake/dependencies/Boost.cmake
+D:/Cpp/SOCI/SOCI/SOCI4.0.0/cmake/dependencies/ODBC.cmake
+D:/Cpp/SOCI/SOCI/SOCI4.0.0/cmake/dependencies/Oracle.cmake
+D:/Cpp/SOCI/SOCI/SOCI4.0.0/cmake/dependencies/SQLite3.cmake
+D:/Cpp/SOCI/SOCI/SOCI4.0.0/cmake/dependencies/Threads.cmake
+D:/Cpp/SOCI/SOCI/SOCI4.0.0/cmake/modules/FindODBC.cmake
+D:/Cpp/SOCI/SOCI/SOCI4.0.0/cmake/modules/FindOracle.cmake
+D:/Cpp/SOCI/SOCI/SOCI4.0.0/cmake/modules/FindSQLite3.cmake
+D:/Cpp/SOCI/SOCI/SOCI4.0.0/include/soci/soci-config.h.in
